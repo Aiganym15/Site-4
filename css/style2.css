@@ -1,0 +1,337 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    transition: 0.4s;
+}
+
+header{
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    color: #6047fb;
+    box-shadow: 0 0 6px white;
+    transition: 0.5s;
+    z-index: 1111;
+}
+
+header img{
+    width: 90px;
+    height: 80px;
+    cursor: pointer;
+}
+
+header .navLinks{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: #397df1;
+}
+
+header .navLinks:hover{
+    background: #0b2544;
+    color: white;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 655px;
+    background: url("/img/bg.png") no-repeat;
+    background-size: 100%;
+}
+
+main .mainText{
+    margin-top: 30px;
+    margin-left: 40px;
+    color: white;
+}
+
+main .mainText .mainTextTitle{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: .8;
+    margin-bottom: 20px;
+}
+
+main .mainText .mainTextDesc{
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+
+main .mainText .mainTextButt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 24px;
+    background: white;
+    color: #000c24;
+}
+
+.courseDescription {
+    color: #6047fb;
+    font-size: 18px;
+}
+
+.courseName {
+    color: #b63f13;
+    font-size: 20px; 
+}
+
+.teachersTitle {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 45px;
+    color: #0b2544;
+}
+
+
+.teacher {
+    color: #3f91c7;
+    font-size: 25px;
+}
+
+footer .container {
+    background-color: #0b2544;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    #headr {
+        float: none;
+        margin: 0 auto;
+        display: table;
+     }
+
+     .logo {
+      float: none;
+      margin: 0 auto 15px;
+      display: table;
+   }
+
+   header img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+header .navLinks {
+    padding: 5px 20px 0px;
+}
+
+.navLinks a {
+    font-size: 12px;
+}
+
+main{
+    height: 100%;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+main .mainText{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+}
+
+main .mainText .mainTextTitle{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: .8;
+    margin-bottom: 15px;
+}
+
+main .mainText .mainTextDesc{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+main .mainText .mainTextButt{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 10px;
+    background: white;
+    color: #000c24;
+}
+
+main .mainText .mainTextButt:hover{
+    transform: scale(.95);
+}
+
+.teachersTitle {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.teachercourse {
+    margin: 30px 30px;
+    padding: 20px;
+}
+
+.teachercourse img {
+    width: 80px;
+    height: 80px;
+}
+
+.courses .teachercourse .courseName{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial;
+    z-index: 3;
+}
+
+.courses .teachercourse:hover .courseName{
+    color: #4828d7;
+}
+
+.courses .teachercourse .courseDescription{
+    margin: 15px 0 10px;
+    font-size: 12px;
+    font-family: Arial;
+    color: #aaa7a7;
+    z-index: 3;
+}
+
+
+.teacher {
+    font-size: 20px;
+    color: #0099FF; 
+}
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #headr {
+        float: none;
+        margin: 0 auto 15px;
+        display: table;
+     }
+
+   main{
+    height: 100%;
+    background-position: center center;
+    background-attachment: initial;
+    background-size: cover;
+}
+
+main .mainText{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+}
+
+main .mainText .mainTextTitle{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: .8;
+    margin-bottom: 15px;
+}
+
+main .mainText .mainTextDesc{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+main .mainText .mainTextButt{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    width: 90px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    background: white;
+}
+
+main .mainText .mainTextButt a {
+    text-decoration: none;
+    color: #000;
+}
+
+.teachersTitle {
+    margin-top: 20px;
+    font-size: 40px;
+} 
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin: 40px 120px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.courses .teachercourse .courseDescription{
+    margin: 0px;
+    padding-top: 15px;
+    text-align: left;
+    color: #aaa7a7;
+}
+
+.courses .teachercourse {
+    flex-basis: calc(50% - 15px);
+}
+
+.content .courses .teachercourse img{
+    width: 50%;
+    height: 50%;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.courses .teachercourse .courseName{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial;
+    z-index: 3;
+}
+
+.courses .teachercourse:hover .courseName{
+    color: #4828d7;
+}
+
+.teacher {
+    font-size: 20px;
+}
+
+}
